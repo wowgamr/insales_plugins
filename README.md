@@ -1,4 +1,4 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/wowgamr/insales_plugins) ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 Репозиторий содержит подборку плагинов для шаблонов InSales. Каждый из плагинов разработан с нуля и предлагается "как есть".
 
