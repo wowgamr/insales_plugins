@@ -1,0 +1,60 @@
+.age-confirmation {
+	display: none;
+	position: fixed;
+	width: 500px;
+	max-width: 80%;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 40%;
+	background: white;
+	border-radius: 10px;
+}
+
+.age-confirmation__wrapper {
+	text-align: center;
+	padding: 20px 10px;
+}
+
+.age-confirmation__image {
+	padding: 10px;
+	padding-top: 0;
+}
+
+.age-confirmation__text {
+	padding: 5px;
+}
+
+.age-confirmation__buttons {
+	padding-top: 10px;
+}
+
+.age-confirmation__buttons div {
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#age_confirmed, #age_not_confirmed {
+	width: 150px;
+	height: 30px;
+	padding: 5px 10px;
+	box-sizing: content-box;
+	border-radius: 5px;
+	border: 1px solid;
+	@include button-variant($color-link-primary, $color-link-primary-hover);
+}
+
+.blur {
+	filter: blur(7px);
+}
+
+.age-blocked {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.3);
+}
