@@ -6,6 +6,7 @@
 | ------ | ------ |
 | Age Confirmation | Всплывающее окно проверки возраста |
 | Checkout Links | Подстановка ссылок в список товаров на странице оформления заказа ([API](https://liquidhub.ru/collection/api-magazina))  |
+| Schema.org | Важные части разметки Schema.org |
 
 ### Сторонние библиотеки
 * [Cookie.js](https://github.com/florian/cookie.js) - работа с cookies
