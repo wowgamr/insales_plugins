@@ -1,4 +1,4 @@
-### Перечисление модификаций
+### Перечисление модификаций (для агрегаторов)
 
 ```
 <div itemprop="offers" itemscope itemtype="https://schema.org/AggregateOffer" style="display: none;">
@@ -14,6 +14,19 @@
 		</div>
 	{% endfor %}
 </div>
+```
+
+### Перечисление модификаций (со статусом наличия в поиске)
+
+```
+{% if product.rating %}
+<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating" style="display: none;"> 
+  <meta itemprop="worstRating" content="1"/>
+  <meta itemprop="ratingValue" content="{{ product.rating }}"/>
+  <meta itemprop="bestRating" content="5"/>
+  <meta itemprop="ratingCount" content="{{ product.reviews_count }}"/>
+</div>
+{% endif %}
 ```
 
 ### Рейтинг товара
