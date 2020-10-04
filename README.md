@@ -6,11 +6,8 @@
 | ------ | ------ |
 | Age Confirmation | Всплывающее окно проверки возраста |
 | Checkout Links | Подстановка ссылок в список товаров на странице оформления заказа ([API](https://liquidhub.ru/collection/api-magazina))  |
-| Schema.org | Важные части разметки Schema.org |
+| Schema.org | Важные части микроразметки Schema.org |
+| JSON-LD | Важные части микроразметки JSON-LD |
 
 ### Сторонние библиотеки
 * [Cookie.js](https://github.com/florian/cookie.js) - работа с cookies
-
-### Todos
- - Уведомление об использовании cookies на сайте
- - Микроразметка JSON-LD
