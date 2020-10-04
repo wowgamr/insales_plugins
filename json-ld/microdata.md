@@ -62,8 +62,8 @@
     "reviewCount": "{{ product.reviews_count }}"
   },
   "review": [
-  	{% for review in product.reviews %}
-    {
+	{% for review in product.reviews %}
+	{
       "@type": "Review",
       "name": "{{ product.title | escape }}",
       "reviewBody": "{{ review.content | escape }}",
